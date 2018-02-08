@@ -1,0 +1,240 @@
+/* Логотип и навигационное меню*/
+.head {
+	display: flex;
+	border-bottom: 1px solid black;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	font-family: Verdana;
+  	font-size: 14px;
+  	font-weight: bold;
+  	padding-bottom: 10px;
+  	height: 60px;
+  	background-color: white;
+  	top: 0;
+}
+.head .navigation {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 40px;
+	width: 20%;
+}
+.head .logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 30px;
+	width: 80%;
+}
+/* Цвет меню и расстояние между менюшками */
+.head .navigation span a {
+	padding: 15px;
+	color: black;
+}
+/* Цвет логотипа */
+.head .ones {
+	padding: 15px;
+	color: MediumAquamarine;
+}
+/*ТЕЛО*/
+
+.large {
+  	width: 630px;
+  	display: flex;
+  	flex-direction: column;
+  }
+
+.one {
+	background-image: url(../images/img-story-main.png);
+	width: 630px;
+	height: 300px;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 40px;
+  	color: white;
+  	display: flex;
+
+
+}
+.one span {
+	display: flex;
+	text-align: left;
+	align-items: center;
+	margin-left: 20px;
+
+}
+.two {
+	width: 630px;
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+}
+.three {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.four {
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.five {
+	background-image: url(../images/img-story-2.png);
+	width: 300px;
+	height: 300px;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+  	align-items: center;
+  	text-align: center;	
+}
+.six {
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	justify-content: space-around;
+
+
+
+}
+.seven {
+	background-image: url(../images/img-story-3.png);
+	width: 300px;
+	height: 300px;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+  	align-items: center;
+  	text-align: center;	
+}
+.eight {
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+}
+
+.nine {
+	background-image: url(../images/img-story-1.png);
+	width: 300px;
+	height: 300px;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+  	align-items: center;
+  	text-align: center;
+}
+
+.ten{
+
+}
+
+.eleven .bite {
+	display: block;
+	padding: 11px 20px;
+	background-color: whitesmoke;
+	font-family: "Verdana", sans-serif;
+	font-size: 12px;
+	color: dimgray;
+	border-bottom: 1px solid black;
+}
+.small img {
+	width: 240px;
+	height: 240px;
+}
+
+/*  */
+.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+/* */
+.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small h2 {
+	font-size: 16px;
+  	font-weight: bold;
+  	display: block;
+}
+
+/* Сдвиг вниз*/
+.content {
+	position: relative;
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+  	width: 1232px;
+  	margin: 0 auto 78px auto;
+
+}
+/* Шрифт заголовков */
+.eight h1,
+.six h1,
+.four h1
+ {
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	align-items: center;
+  	text-align: left;	
+}
+/* расстояние между */
+.two,
+.four p,
+.six p,
+.eight p,
+.ten {
+	margin-top: 16px;
+}
+
+footer {
+	display: flex;
+	background-color: MediumAquamarine;
+  	margin: auto;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	justify-content: center;
+  	align-items: center;
+  	width: 100%;
+  	height: 325px;
+  	flex-direction: column;
+}
+.mytimes {
+	display: inline-block;
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+  	border-right: 1px solid white;
+  	padding-right: 20px;
+  	margin-right: 20px;
+}
+.bot_nav {
+	padding: 20px 10px;
+	display: inline-block;
+	
+
+}
+.bot_nav a {
+	color: black;
+}
